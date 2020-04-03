@@ -1,5 +1,8 @@
+/* Add Model */
+var User = require("../models/User");
+
 exports.getAllUsers = (req, res, next) => {
-    res.render('admin/users');
+    res.render('users');
 }
 
 exports.postCreateUser = (req, res, next) => {

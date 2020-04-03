@@ -17,6 +17,8 @@ The following packages were imported into Starter Package:
 * [nodemon] - Simple monitor script for use during development of a Node.js app.
 * [body-parser] - Node.js body parsing middleware.
 * [ejs] - Node.js view engine framework.
+* [mongoose] - Node.js orm tool for MongoDb.
+* [dotenv] - Loads environment variables from .env file.
 
 This list is constantly updated
 
@@ -29,6 +31,17 @@ Here is information on package installation
 $ git clone https://github.com/berkekurnaz/nodejs-starter-package.git
 $ npm install 
 $ npm start
+```
+
+### Database Connection
+
+Here is information on database connection. Open .env file and change your own informations.
+
+```sh
+DATABASE_URL=clusterberke-cldba.mongodb.net/test?retryWrites=true&w=majority
+DATABASE_NAME=MyTestDb
+DATABASE_USER_USERNAME=testusertr
+DATABASE_USER_PASSWORD=12341234
 ```
 
 ### Todos
