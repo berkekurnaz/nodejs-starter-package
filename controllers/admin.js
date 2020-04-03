@@ -2,7 +2,7 @@
 var User = require("../models/User");
 
 exports.getAllUsers = (req, res, next) => {
-    res.render('users');
+    res.render('users', { layout: false });
 }
 
 exports.postCreateUser = (req, res, next) => {
