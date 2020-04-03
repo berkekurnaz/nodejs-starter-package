@@ -41,7 +41,7 @@ Here is information on database connection. Open .env file and change your own i
 DATABASE_URL=clusterberke-cldba.mongodb.net/test?retryWrites=true&w=majority
 DATABASE_NAME=MyTestDb
 DATABASE_USER_USERNAME=testusertr
-DATABASE_USER_PASSWORD=12341234
+DATABASE_USER_PASSWORD=1234567890
 ```
 
 ### Todos
